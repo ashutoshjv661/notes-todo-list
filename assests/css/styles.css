@@ -1,0 +1,25 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	background-color: #c6ff00; 
+}
+div.container-fluid{
+		margin-top: 20px;
+		
+	}
+	.navbar{
+		background-color: lightgrey;
+	}
+	div.panel{
+		background-color: white;
+		margin-top: 20px;
+	}
+	#form{
+		background-color : lightgreen;
+		margin-bottom: 20px; 
+	}
+	.form-horizontal{
+		margin: 10px;
+		padding: 10px;
+	}
