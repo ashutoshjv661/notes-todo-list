@@ -1,0 +1,35 @@
+    
+.main-panel > .content {
+     min-height: calc(100vh - 160px); 
+}
+
+.full-panel > .content {
+	min-height: calc(100vh - 80px);
+}
+
+.card-login{
+	margin-top: 200px;
+}
+
+.tablecontainer { width: 400px; overflow; hidden;}
+tr {display: block; }
+th, td { width: 200px; }
+tbody { display: block; height: 100px; overflow: auto;}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+@media screen and (max-width: 700px) {
+    .card-login{
+    	margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 380px){
+	.footer-menu{
+		display: none;
+	}
+}
+
