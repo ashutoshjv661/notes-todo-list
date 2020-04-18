@@ -3,3 +3,6 @@ A database application developed in PHP, MYSQL, HTML, CSS and JavaScript for man
 
 Use User-name : admin
 Password : admin
+
+# Version : 1.0 
+# Date : 15-04-2020 
