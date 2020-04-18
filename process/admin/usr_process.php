@@ -77,7 +77,7 @@
 		$sql = "INSERT INTO users (id, username, fname, pass, role, active, llogin) VALUES ('".$id."', '".$_POST['username']."', '".$_POST['fname']."', '".$pass."', '".$_POST['role']."', '1', '".$date."')";
 		if (mysqli_query($conn, $sql)) {
 			$_POST['addUserHome']=0;
-			header('location:../../home.php');
+			header('location:../../index.php');
 		} else {
 		    $err = mysqli_error($conn);
 			if(strpos($err, 'Duplicate entry') !== false){
