@@ -5,6 +5,5 @@ Use User-name : admin
 Password : admin
 
 # Version : 1.0 
-# Date : 15-04-2020 
 
 ![Home Page](assets/gitimg.png)
